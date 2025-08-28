@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #A8FFF0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    border: 10px solid rgb(67, 66, 66);
+    border-radius: 10%;
+    margin-left: 400px;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.red{
+    background-color: rgb(237, 104, 104);
+    font-size: 30px;
+}
+.green{
+    background-color: rgb(97, 239, 97);
+    font-size: 30px;
+}
+.yellow{
+    background-color: yellow;
+    font-size: 30px;
+}
+.purple{
+    background-color: rgb(222, 59, 222);
+    font-size: 30px;
+}   
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+.btn:hover{
+    height: 205px;
+    opacity: 1;
+}
